@@ -1,4 +1,4 @@
-Mobile Developer Candidate
+## Mobile Developer Candidate
 
 The Mobile Team at Tquila ANZ strives to keep up to date and working with the bleeding edge of technology. We’re fond of experimental developers as they bring the best practices of different skills into the technology stack.
 
@@ -39,13 +39,10 @@ Please include any additional packages or build tools that you may need and spec
 Please refer to the JSON attached with this sheet for the data source required for the application.
 
 
-1.     Create a list to list out all the Accounts in the data source.
-
-2.     When a list item is selected, display the information associated to the Account.
-
-3.     The Account should also display in a similar list, each and every one of the Contacts with their relevant information.
-
-4.     When a contact is selected, flag the contact as ‘high risk’ and display it accordingly.
+ 1. Create a list to list out all the Accounts in the data source.
+ 2. When a list item is selected, display the information associated to the Account.
+ 3. The Account should also display in a similar list, each and every one of the Contacts with their relevant information.
+ 4. When a contact is selected, flag the contact as ‘high risk’ and display it accordingl.
 
 
 We would like to leave the UI/UX up to your discretion.
@@ -78,151 +75,75 @@ Submission
 
 
 JSON Data Source:
-
-
-{
-
-        "Accounts" : [
-
-                    {
-
-                                "Name": "Team A",
-
-                                "Phone": "0412345678",
-
-                                "Email": "team@teama.com",
-
-                                "Contacts": [
-
-                                            {
-
-                                                        "Name": "Contact AA",
-
-                                                        "High_Risk": false,
-
-                                                        "Amount": 20000
-
-                                            },
-
-                                            {
-
-                                                        "Name": "Contact AB",
-
-                                                        "High_Risk": false,
-
-                                                        "Amount": 20000
-
-                                            }
-
-                                ]
-
-                    },
-
-                    {
-
-                                "Name": "Team B",
-
-                                "Phone": "0412123123",
-
-                                "Email": "team@teamb.com",
-
-                                "Contacts": [
-
-                                            {
-
-                                                        "Name": "Contact BA",
-
-                                                        "High_Risk": false,
-
-                                                        "Amount": 30000
-
-                                            },
-
-                                            {
-
-                                                        "Name": "Contact BB",
-
-                                                        "High_Risk": true,
-
-                                                        "Amount": 50000
-
-                                            }
-
-                                ]
-
-                    },
-
-                    {
-
-                                "Name": "Team C",
-
-                                "Phone": "0402021244",
-
-                                "Email": "team@teamc.com",
-
-                                "Contacts": [
-
-                                            {
-
-                                                        "Name": "Contact CA",
-
-                                                        "High_Risk": false,
-
-                                                        "Amount": 1600
-
-                                        }
-
-                                ]
-
-                    },
-
-                    {
-
-                                "Name": "Team D",
-
-                                "Phone": "0429060332",
-
-                                "Email": "team@teamd.com",
-
-                                "Contacts": [
-
-                                            {
-
-                                                        "Name": "Contact DA",
-
-                                                        "High_Risk": false,
-
-                                                        "Amount": 22500
-
-                                            },
-
-                                            {
-
-                                                        "Name": "Contact DB",
-
-                                                        "High_Risk": false,
-
-                                                        "Amount": 5000
-
-                                            },
-
-                                            {
-
-                                                        "Name": "Contact DC",
-
-                                                        "High_Risk": false,
-
-                                                        "Amount": 20000
-
-                                            }
-
-                                ]
-
-                    }
-
-        ]
-
-}
-
-
-
+{{
+    "Accounts": [
+        {
+            "Contacts": [
+                {
+                    "Amount": 20000,
+                    "High_Risk": false,
+                    "Name": "Contact AA"
+                },
+                {
+                    "Amount": 20000,
+                    "High_Risk": false,
+                    "Name": "Contact AB"
+                }
+            ],
+            "Email": "team@teama.com",
+            "Name": "Team A",
+            "Phone": "0412345678"
+        },
+        {
+            "Contacts": [
+                {
+                    "Amount": 30000,
+                    "High_Risk": false,
+                    "Name": "Contact BA"
+                },
+                {
+                    "Amount": 50000,
+                    "High_Risk": true,
+                    "Name": "Contact BB"
+                }
+            ],
+            "Email": "team@teamb.com",
+            "Name": "Team B",
+            "Phone": "0412123123"
+        },
+        {
+            "Contacts": [
+                {
+                    "Amount": 1600,
+                    "High_Risk": false,
+                    "Name": "Contact CA"
+                }
+            ],
+            "Email": "team@teamc.com",
+            "Name": "Team C",
+            "Phone": "0402021244"
+        },
+        {
+            "Contacts": [
+                {
+                    "Amount": 22500,
+                    "High_Risk": false,
+                    "Name": "Contact DA"
+                },
+                {
+                    "Amount": 5000,
+                    "High_Risk": false,
+                    "Name": "Contact DB"
+                },
+                {
+                    "Amount": 20000,
+                    "High_Risk": false,
+                    "Name": "Contact DC"
+                }
+            ],
+            "Email": "team@teamd.com",
+            "Name": "Team D",
+            "Phone": "0429060332"
+        }
+    ]
+}}

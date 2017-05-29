@@ -73,10 +73,8 @@ What we want to see from this assessment is:
 
 Submission
 
-
-1.     Please host the source code on a public repository in GitHub, with a separate branch to hold the GitHub Pages application.
-
-2.     Provide a README.md file to allow us to set up the environment on our end easily, including all the commands to run the scripts.
+ 1. Please host the source code on a public repository in GitHub, with a separate branch to hold the GitHub Pages application.
+ 2. Provide a README.md file to allow us to set up the environment on our end easily, including all the commands to run the scripts.
 
 
 JSON Data Source:

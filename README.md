@@ -75,75 +75,77 @@ Submission
 
 
 JSON Data Source:
-```{
-   { "Accounts": [
+```
+{
+  "Accounts": [
+    {
+      "Contacts": [
         {
-            "Contacts": [
-                {
-                    "Amount": 20000,
-                    "High_Risk": false,
-                    "Name": "Contact AA"
-                },
-                {
-                    "Amount": 20000,
-                    "High_Risk": false,
-                    "Name": "Contact AB"
-                }
-            ],
-            "Email": "team@teama.com",
-            "Name": "Team A",
-            "Phone": "0412345678"
+          "Amount": 20000,
+          "High_Risk": false,
+          "Name": "Contact AA"
         },
         {
-            "Contacts": [
-                {
-                    "Amount": 30000,
-                    "High_Risk": false,
-                    "Name": "Contact BA"
-                },
-                {
-                    "Amount": 50000,
-                    "High_Risk": true,
-                    "Name": "Contact BB"
-                }
-            ],
-            "Email": "team@teamb.com",
-            "Name": "Team B",
-            "Phone": "0412123123"
-        },
-        {
-            "Contacts": [
-                {
-                    "Amount": 1600,
-                    "High_Risk": false,
-                    "Name": "Contact CA"
-                }
-            ],
-            "Email": "team@teamc.com",
-            "Name": "Team C",
-            "Phone": "0402021244"
-        },
-        {
-            "Contacts": [
-                {
-                    "Amount": 22500,
-                    "High_Risk": false,
-                    "Name": "Contact DA"
-                },
-                {
-                    "Amount": 5000,
-                    "High_Risk": false,
-                    "Name": "Contact DB"
-                },
-                {
-                    "Amount": 20000,
-                    "High_Risk": false,
-                    "Name": "Contact DC"
-                }
-            ],
-            "Email": "team@teamd.com",
-            "Name": "Team D",
-            "Phone": "0429060332"
+          "Amount": 20000,
+          "High_Risk": false,
+          "Name": "Contact AB"
         }
-    ] }
-}```
+      ],
+      "Email": "team@teama.com",
+      "Name": "Team A",
+      "Phone": "0412345678"
+    },
+    {
+      "Contacts": [
+        {
+          "Amount": 30000,
+          "High_Risk": false,
+          "Name": "Contact BA"
+        },
+        {
+          "Amount": 50000,
+          "High_Risk": true,
+          "Name": "Contact BB"
+        }
+      ],
+      "Email": "team@teamb.com",
+      "Name": "Team B",
+      "Phone": "0412123123"
+    },
+    {
+      "Contacts": [
+        {
+          "Amount": 1600,
+          "High_Risk": false,
+          "Name": "Contact CA"
+        }
+      ],
+      "Email": "team@teamc.com",
+      "Name": "Team C",
+      "Phone": "0402021244"
+    },
+    {
+      "Contacts": [
+        {
+          "Amount": 22500,
+          "High_Risk": false,
+          "Name": "Contact DA"
+        },
+        {
+          "Amount": 5000,
+          "High_Risk": false,
+          "Name": "Contact DB"
+        },
+        {
+          "Amount": 20000,
+          "High_Risk": false,
+          "Name": "Contact DC"
+        }
+      ],
+      "Email": "team@teamd.com",
+      "Name": "Team D",
+      "Phone": "0429060332"
+    }
+  ]
+}
+```

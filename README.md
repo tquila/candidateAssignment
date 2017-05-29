@@ -5,67 +5,35 @@ The Mobile Team at Tquila ANZ strives to keep up to date and working with the bl
 
 Our technology stack for our web builds use:
 
-*
-React.js
+*React.js
+*React Router
+*Babel
+*Redux/Redux Sagas/Reselect Selectors
+*ImmutableJS
+*CSS Modules
+*Webpack 2
 
-*
-React Router
-
-*
-Babel
-
-*
-Redux/Redux Sagas/Reselect Selectors
-
-*
-ImmutableJS
-
-*
-CSS Modules
-
-*
-Webpack 2
-
-
-Prerequisite
+#Prerequisite
 
 
 Feel free to use the packages you are most comfortable with, but we will require the following:
 
-*
-The server must be written in Node/Express.
-
-*
-Hot reloading must be supported the if NODE_ENV=development.
-
-*
-The JavaScript must be loaded from a webpack generated bundle if NODE_ENV=production.
-
-*
-The web application must be built using React.
-
-*
-The web application must be written as a single page app.
-
-*
-Choose any database that you are comfortable with.( Please host the supplied data in a suitable database).
-
+*The server must be written in Node/Express.
+*Hot reloading must be supported the if NODE_ENV=development.
+*The JavaScript must be loaded from a webpack generated bundle if NODE_ENV=production.
+*The web application must be built using React.
+*The web application must be written as a single page app.
+*Choose any database that you are comfortable with.( Please host the supplied data in a suitable database).
 
 And would like to see:
 
-*
-Use of redux-sagas. Reference: https://github.com/redux-saga/redux-saga
+*Use of redux-sagas. Reference: https://github.com/redux-saga/redux-saga
 
-*
-CSS Modules or another mechanism for enforcing scoping and/or preventing style leakage.
+*CSS Modules or another mechanism for enforcing scoping and/or preventing style leakage.
 
-*
-CSS vendor prefixes automatically generated via webpack loaders.
+*CSS vendor prefixes automatically generated via webpack loaders.
 
-
-
-Requirements
-
+#Requirements
 
 Please include any additional packages or build tools that you may need and specify in your README.md.
 
@@ -95,11 +63,11 @@ What we want to see from this assessment is:
 
 ●      Good development practices
 
-○      Componentization
+        ○      Componentization
 
-○      TDD/BDD
+        ○      TDD/BDD
 
-○      Well set-up technology stack and environment
+        ○      Well set-up technology stack and environment
 
 ●      Functional, custom application
 

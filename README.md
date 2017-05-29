@@ -57,9 +57,9 @@ We understand that time is important, and we have structured this in a way that 
 What we want to see from this assessment is:
 
 *  Good development practices
- - Componentization
- - TDD/BDD
- - Well set-up technology stack and environment
+   - Componentization
+   - TDD/BDD
+   - Well set-up technology stack and environment
 
 * Functional, custom application
 * Great UI/UX

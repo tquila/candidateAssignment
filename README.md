@@ -75,7 +75,7 @@ Submission
 
 
 JSON Data Source:
- { {
+ `{
     "Accounts": [
         {
             "Contacts": [
@@ -146,4 +146,4 @@ JSON Data Source:
             "Phone": "0429060332"
         }
     ]
- } }
+ }`
